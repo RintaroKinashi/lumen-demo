@@ -22,7 +22,7 @@ docker compose exec app vendor/bin/phpunit
 
 // MySQLログイン
 docker compose exec db bash
-bash-4.4# mysql -uroot -p
+bash# mysql -uroot -p
 ```
 
 以下のパスにアクセスして TOP 画面が表示できていれば正常
