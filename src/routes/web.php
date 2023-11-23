@@ -16,3 +16,8 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+// index
+$router->get('articles', 'ArticleController@index');
+// show
+$router->get('articles/{id}', 'ArticleController@show');
